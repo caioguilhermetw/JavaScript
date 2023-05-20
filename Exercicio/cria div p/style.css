@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(18, 207, 81);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    max-width: 650px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input :focus{
+    outline: yellow;
+}
+
+form button{
+    border: none;
+    background: green;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+form button:hover {
+    background: yellowgreen;
+}
+
+
